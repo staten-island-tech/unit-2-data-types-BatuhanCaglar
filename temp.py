@@ -7,14 +7,19 @@ elif temp == 68:
 else: temp < 68
 print('cold')
 
+value = input(63)
+x = value
+print(x)
 
 def oddeven():
-    if (x==0):
+    value = input(63)
+    x = value
+    print(x)
+    if (value==0):
         print("even")
     else :
         print("odd")
 
-#insert number
-value = (4)
 
-x = (4/2)
+
+
