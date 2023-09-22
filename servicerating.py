@@ -1,5 +1,5 @@
 
-service=("great")
+service=("good")
 if service ==("bad"):
     print("0%")
 elif service ==("okay"):
