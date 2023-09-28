@@ -1,11 +1,8 @@
-westbound = ("true")
-eastbound = ("false")
-def traffic():
-    if westbound == "false" and eastbound == "true":
+x = ("true")
+y = ("false")
+def truth (x,y):
+    if x == y:
+        print("false")
+    elif x != y:        
         print("true")
-    elif westbound == "true" and eastbound == "false":
-        print("true")
-    if westbound == "false" and eastbound == "false":
-        print("true")
-    else:  
-        print("false")  
+truth(x,y)

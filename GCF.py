@@ -1,23 +1,16 @@
+def gcf(x,y):
+  print("The factors of" ,x, "and" ,y, "are:")
+  for i in range(1,x+1):
+    if x % i == 0:
+      print(i)
+  for i in range(1,y+1):
+    if y % i == 0:
+      print(i)
+number1 = 64
+number2 = 24
+gcf(number1,number2)
 
-numb1 = 54
-numb2 = 24
-def factors(x,y):
-    print("The factors of" ,numb1, "and" ,numb2, "are:")
-    for i in range(1,numb1+1) and (1,numb2+1):
-        if (numb1 % i == 0) and (numb2 % i == 0):
-           gcf=i
-        thislist = [i]
-        thislist.append(gcf)
-    print(thislist)
-    print(i)
-
-
-
-
-factors(numb1,numb2)
-
-
-
+    
 
 
 

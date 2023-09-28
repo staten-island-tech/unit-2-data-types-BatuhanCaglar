@@ -7,18 +7,6 @@ elif temp == 68:
 else: temp < 68
 print('cold')
 
-value = input(63)
-x = value
-print(x)
-
-def oddeven():
-    value = input(63)
-    x = value
-    print(x)
-    if (value==0):
-        print("even")
-    else :
-        print("odd")
 
 
 
