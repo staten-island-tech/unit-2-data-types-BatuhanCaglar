@@ -1,14 +1,14 @@
-def gcf(x,y):
-  print("The factors of" ,x, "and" ,y, "are:")
-  for i in range(1,x+1):
-    if x % i == 0:
+num=int(input("Please enter a number"))
+num2=int(input("Please enter a second number"))
+
+def gcf():
+  for i in range(num, 0, -1):
+    if num%i==0 and num2%i==0:
       print(i)
-  for i in range(1,y+1):
-    if y % i == 0:
-      print(i)
-number1 = 64
-number2 = 24
-gcf(number1,number2)
+      max(i)
+gcf()
+
+
 
     
 
