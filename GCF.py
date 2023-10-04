@@ -1,13 +1,14 @@
-x = input("Enter a number:")
-y = input("Enter a second:")
+x = int(input("Enter a number:"))
+y = int(input("Enter a second:"))
 list = []
+
 def gcf():
-  for i in range(x,y):
-    if x%i(2) == 0 and y%i(2) == 0:
-      print (i) in list
-      gcf == max(list)
-      print ("gcf")
+  for i in range (x,0,-1):
+    if x%i == 0 and y%i == 0:
+      list.append(i)
+      print (max(list))
 gcf()
+
 
 
     
